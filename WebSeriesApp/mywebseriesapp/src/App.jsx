@@ -1,5 +1,6 @@
 import './App.css'
 import SeriesCard, {SeriesCardFooter} from './components/seriescards/seriescard'
+import SeriesItemList from './components/seriesitems/seriesitemlistdata'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       </h1>
       <SeriesCard/>
       <SeriesCardFooter/>
+      <SeriesItemList/>
    </div>
   )
 }
