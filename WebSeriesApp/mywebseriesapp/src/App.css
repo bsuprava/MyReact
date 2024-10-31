@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+.seriesbody-container
+{
+  width: 100%;
+  display:table;
+}
+.seriesbody-container-row
+{
+  width: 100%;
+  display: table-row
+}
+.serieslist-container
+{
+  width: 80%;
+  display: table-cell;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+.profilecards-container
+{
+ width: 20%;
+ padding-top: 0px;
+ display: table-cell;
+}
