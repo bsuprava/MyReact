@@ -1,3 +1,8 @@
+/**This file contains demo of 
+ * i.Rendering single component
+ * ii.Rendering static list of data through a component using map function
+ */
+
 import DoPattiImg from '../../assets/images/series/dopatti.jpg';
 import seriesCardList from '../../api/seriescardlist.json';
 
