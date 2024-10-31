@@ -1,0 +1,68 @@
+[
+    {
+        "name":"HeeraMandi",
+        "age":12,
+        "id":"heeramandi",
+        "ratings":"5.2",
+        "cast":"Madhuri, Shonakshi",
+        "genres":"Hindi-Language Movies, Romantic Movies",
+        "movieis":"Dark, Suspenseful",
+        "summary":"A women centric movie",
+        "img_url":"http://localhost:5173/src/assets/images/series/heeramandi.jpg"
+    },
+    {
+        "name":"Do Patti",
+        "age":15,
+        "id":"dopatti",
+        "ratings":"5.0",
+        "cast":"Kajol, Kriti Sanan",
+        "genres":"Hindi-Language Movies, Crime Movies",
+        "movieis":"Dark, Suspenseful",
+        "summary":"A police investigates crime involving twins. The movie is filled with love , suspense and thiller",
+        "img_url":"http://localhost:5173/src/assets/images/series/dopatti.jpg"
+    },
+    {
+        "name":"Khakee",
+        "age":25,
+        "id":"khakee",
+        "ratings":"7.0",
+        "cast":"Kajol, Aiswarya",
+        "genres":"Hindi-Language Movies, Crime Movies",
+        "movieis":"Dark, Suspenseful",
+        "summary":"A police investigates crime ",
+        "img_url":"http://localhost:5173/src/assets/images/series/khakee.jpg"
+    },
+    {
+        "name":"Laapata Ladies",
+        "age":45,
+        "id":"lapataladies",
+        "ratings":"9.2",
+        "cast":"Kajol, Kriti Sanan",
+        "genres":"Hindi-Language Movies, Comedy Movies",
+        "movieis":"Dark, Suspenseful",
+        "summary":"A police investigates missing women",
+        "img_url":"http://localhost:5173/src/assets/images/series/laapataladies.jpg"
+    },
+    {
+        "name":"The Article 370",
+        "age":35,
+        "id":"thearticle370",
+        "ratings":"8.3",
+        "cast":"Kajol, Kriti Sanan",
+        "genres":"Hindi-Language Movies, Crime Movies",
+        "movieis":"Dark, Suspenseful",
+        "summary":"A police investigates crime involving twins. The movie is filled with love , suspense and thiller",
+        "img_url":"http://localhost:5173/src/assets/images/series/article370.jpg"
+    },
+    {
+        "name":"The Web",
+        "age":35,
+        "id":"theweb",
+        "ratings":"8.3",
+        "cast":"Kajol, Kriti Sanan",
+        "genres":"Hindi-Language Movies, Crime Movies",
+        "movieis":"Dark, Suspenseful",
+        "summary":"A police investigates crime involving twins. The movie is filled with love , suspense and thiller",
+        "img_url":""
+    }
+]

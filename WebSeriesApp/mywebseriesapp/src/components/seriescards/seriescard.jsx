@@ -1,4 +1,5 @@
 import DoPattiImg from '../../assets/images/series/dopatti.jpg';
+import seriesCardList from '../../api/seriescardlist.json';
 
 const SeriesCard = () =>
 {
@@ -16,7 +17,7 @@ const SeriesCard = () =>
         return summary;
     }
 
-    /**2nd way to display watchnow button as per age */
+    /**2nd way to display watchnow button as per age if not rendered as list */
     let canWatch = "Not Available";
     if(age >= 18) canWatch = "Watch Now";
     /*
@@ -42,8 +43,31 @@ const SeriesCard = () =>
              <p>Genres: {genres}</p>
              <p>This movie is: {movieis}</p>
              <p>Summary: {getSummary()}</p>
-             {/*<button id='btn-seriescard'>{age >= 18? "Watch Now" : " Not Available"}</button>   */}
+             {/*<button id='btn-seriescard'>{age >= 18? "Watch Now" : " Not Available"}</button>  display as per condition if rendered as list example is below at line no 64 */}
                <button id='btn-seriescard'>{canWatch}</button>
+        </div>
+        <div>
+            <ul>
+                {
+                    seriesCardList.map((currentElement) =>
+                    {
+                        return (
+                            <li key={currentElement.id}>
+                                <div id='div-series-img'>
+                                    <img src={currentElement.img_url ==""? DoPattiImg:currentElement.img_url}></img>
+                                    <h2>Name: {currentElement.name}</h2>
+                                    <h3>Ratings:{currentElement.ratings}</h3>
+                                    <p>Cast: {currentElement.cast}</p>
+                                    <p>Genres: {currentElement.genres}</p>
+                                    <p>This movie is: {currentElement.movieis}</p>
+                                    <p>Summary: {currentElement.summary}</p>
+                                    <button id='btn-seriescard'>{currentElement.age >= 18? "Watch Now" : " Not Available"}</button>
+                                </div>
+                            </li>
+                        )                       
+                    })
+                }
+            </ul>
         </div>
     </div>
   )
